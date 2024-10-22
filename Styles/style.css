@@ -8,12 +8,21 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.playwrite-gb-s-miama{
+    font-family: 'Miama', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
 /* Header section style start */
 
 body{
     margin: 0 auto;
     background-color: black;
-    max-width: 1140px;
+    max-width: 1440px;
 }
 .header-section-nav{
     margin-left: 190px;
@@ -62,3 +71,112 @@ border-radius: 10px; color: white;}
 }
 
 /* Header section style end */
+
+/* Banner section start */
+.Banner-section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 190px;
+    margin-right: 140px;
+    gap: 50px;
+    /* margin-top: 190px; */
+}
+
+.banner-title{
+    width: 600px;
+    height: 440px;
+}
+
+.banner-title-text{
+    color: #FFFFFF;
+    font-size: 78px;
+    font-weight: mixed;
+}
+
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-size: 78px;
+                                                
+}
+
+.banner-description{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: normal;    
+}
+
+.btn-primary{
+    background-color: red;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border-radius: 30px;
+    padding: 16px 46px;
+    margin-right: 30px;
+    border: none;
+}
+
+.btn-primary:hover{background-color: black;}
+
+.btn-primary-1{
+    background-color: black;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border-radius: 30px;
+    padding: 16px 46px;
+    margin-right: 30px;
+    border: 1px solid white;
+}
+
+.btn-primary-1:hover{background-color: red;}
+
+.badge{
+    background-color: grey;
+    border: 1px solid;
+    text-align: center;
+    width: 193px;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+.badge h3{
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFFFFF;margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.badge p{
+    color: white;
+    margin-top: 0px;
+    font-size: 13px;
+    
+}
+
+.badge-1{
+    background-color: #303030;
+    border: 1px solid;
+    text-align: center;
+    width: 193px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: -20px;
+    
+}
+
+.badge-1 h3{
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.badge-1 p{
+    color: white;
+    margin-top: 0px;
+    font-size: 13px;
+    
+}
+/* Banner section end */
