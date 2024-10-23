@@ -282,3 +282,68 @@ margin-right: 144px;
     border: none;
 }
 /* Run an extra section style end */
+
+/* <!-- Meet our team Section start--> */
+.team-trainer-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-trainer-title{
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 671px;
+    max-height: 120px;
+    margin: 40px 385px;
+
+}
+
+.team-title{
+    font-size: 48px;
+    font-weight: black;
+    margin-bottom: 10px;
+}
+
+.team-description{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* Image Grid section */
+
+.team-trainer-image-grid{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 5px;
+   margin: 58px, 190px 88px 190px;
+   width: 1060px;
+   height: 604px;
+   align-items: center;
+   margin-top: 40px;
+}
+
+.team-trainer-img img{
+    max-width: 100%;
+    width: 326px;
+    height: 272px;
+    border-radius: 10px;
+}
+/* .team-trainer-img h4, p{
+    color: #FFFFFF;
+    margin-top: -55px;
+} */
+.trainer-name{
+    color: #FFFFFF;
+    margin-top: -60px;
+    margin-left: 20px;
+}
+
+.trainer-title{
+    color: #FFFFFF;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+/* <!-- Meet our team Section end--> */
