@@ -347,3 +347,47 @@ margin-right: 144px;
 }
 
 /* <!-- Meet our team Section end--> */
+/* <!-- Footer Section start--> */
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 120px;
+    max-width: 100%;
+    background-color: rgb(28, 27, 27);
+    border: 0px solid grey;
+    padding: 30px 40px;
+}
+
+.footer-description{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.mid-part-Get-Started{
+    color: #FFFFFF;
+}
+.mid-part-Get-Started h3:hover{background-color: bisque;}
+.mid-part-Get-Started li:hover{background-color: aqua;}
+
+.footer-title-1{
+    text-decoration: none;
+    width: 50%;
+}
+.links li{
+    list-style: none;
+    width: 150px;
+
+}
+.links a{
+    text-decoration:none;
+    color: #FFFFFF;
+
+
+
+}
+/* <!-- Footer Section start--> */
