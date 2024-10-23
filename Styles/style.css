@@ -19,11 +19,11 @@
   }
 /* Header section style start */
 
-/* body{
+body{
     margin: 0 auto;
     background-color: black;
     max-width: 1440px;
-} */
+}
 .header-section-nav{
     margin-left: 190px;
     margin-right: 214px;
@@ -188,22 +188,22 @@ margin-right: 144px;
 }
 .habits-text-part{
     text-align: center;
-    margin-left: 385px;
-    margin-right: 385px;
+    margin-left: 285px;
+    margin-right: 285px;
     margin-top: 70px;
 }
 
 .habits-text-part h2{
     font-size: 48px;
     font-weight: 800;
-    color: black;
+    color: #FFFFFF;
     margin-bottom: 10px;
 }
 
 .habits-text-part p{
     font-size: 16px;
     font-weight: 400;
-    color: black;
+    color: #FFFFFF;
     margin-bottom: 15px;
     padding: 30px;
 }
@@ -215,8 +215,70 @@ margin-right: 144px;
     
 }
 
+.movement {
+    text-align: center;
+}
+
+.movement h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.movement p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
 .movement img{
     max-width: 100%;
     border-radius: 60%;
 }
 /* Habits Section end */
+
+
+/* Run an extra section style start */
+.run-an-extra-section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1060px;
+    max-height: 372px;
+    margin: 100px 190px;
+    background-color: #222222;
+    border-radius: 20px;
+}
+
+.run-an-extra-title{
+    margin: 30px 32px;
+    width: 366px;
+    height: 312px;
+}
+.run-title {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.run-description{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.run-an-extra-image img{
+    max-width: 100%;
+    border-radius: 20px;
+    margin: 30px 32px;
+    width: 366px;
+    height: 312px;
+}
+
+.run-an-extra-title > .btn-primary a{
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+}
+/* Run an extra section style end */
