@@ -283,6 +283,45 @@ margin-right: 144px;
 }
 /* Run an extra section style end */
 
+/* BMI part start start */
+.bmi-section{
+    margin-left: 384px;
+    margin-right: 384px;
+}
+
+.bmi-title-part{
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.bmi-description{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+.bmi-chart{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: right; */
+    gap: 90px;
+}
+table, th, tr, td{
+    color: #FFFFFF;
+    border: 1px solid rgb(230, 224, 224);
+       
+}
+
+th, td {
+    margin-left: 5px;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+}
+/* BMI part start end */
+
 /* <!-- Meet our team Section start--> */
 .team-trainer-section{
     display: flex;
